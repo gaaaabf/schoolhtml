@@ -1,0 +1,106 @@
+.header
+{
+	border: 2px black solid;
+	width: 90%;
+	border-radius: 5px;
+	background-color: #236E95;
+	position: static;
+	margin: auto;
+	padding-bottom: 20px;	
+}
+.main
+{
+	margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    background-color: #15B2D1;
+}
+.hitems
+{	
+	margin-right: 10px;
+	margin-left: 15px;
+
+}
+.hitems:hover
+{
+	background-color: #b0dbd0;
+	border: 1px solid black;
+}
+
+ul
+{
+	position: relative;
+	list-style-type: none;
+	top: -15px;
+}
+li a
+{
+	float: left;
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	display: block;
+	padding: 9px;
+}
+
+a:hover
+{
+	background-color: #b0dbd0;
+	border: 1px solid black;
+	text-decoration: underline;
+}
+.current
+{
+	background-color: #b0dbd0;
+	border: 1px solid black;
+	text-decoration: underline;
+}
+.search
+{
+	float: left;
+}
+
+.left-align
+{
+	border: 3px solid black;
+	border-radius: 5px;
+    float: left;
+    position: inherit;
+    margin-top: 30px;
+}
+
+.right-align
+{
+	border: 3px solid black;
+	border-radius: 5px;
+    float: right;
+    position: inherit;
+	margin-top: 30px;
+}
+
+textarea
+{
+	resize: none;
+	border: none;
+}
+
+h1
+{
+	font-family: Lobster;
+}
+
+@font-face
+{
+	font-family: "Lobster";
+	src: url('Lobster_1.3.otf') format('embedded-opentype'),
+	url('Lobster_1.3.otf') format('opentype');
+}
+
+/*body
+{
+	background-color: #7C786A;
+}*/
